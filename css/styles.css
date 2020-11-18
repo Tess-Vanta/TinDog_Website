@@ -1,0 +1,184 @@
+body {
+  font-family: "Carter One";
+  text-align: center;
+}
+
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 15px;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.mid-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Title Section */
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #DC3545;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+
+
+#title .container-fluid {
+  padding: 3% 7% 15%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 10%
+}
+
+/* Features Section */
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding: 4.5rem;
+}
+
+
+.icon {
+  font-size: 4rem;
+  color: #E17A84;
+  margin: 1rem 2rem;
+}
+
+.icon:hover {
+  color: #DC3545;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #E17A84;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20%;
+}
+
+
+#press {
+  background-color: #E17A84;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  min-height: 550px;
+  border: solid;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-footer {
+  background-color: #E17A84;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 10%
+  }
+
+}
+
+/* Call to Action */
+
+#cta {
+  font-family: "Carter One";
+  font-weight: 600;
+}
+
+/* Footer */
+
+#footer {
+}
+
+.footer-head {
+    font-size: 3.5rem;
+}
+
+.icon-footer {
+  color: black;
+  margin: 5% 3%;
+}
+
+.icon-footer:hover {
+    color: #DC3545;
+}
